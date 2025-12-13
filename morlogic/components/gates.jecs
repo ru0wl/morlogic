@@ -1,0 +1,115 @@
+NandGate:
+    column: "Logic"
+    prefab:
+        blocks:
+            - 
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: FF4444
+        inputs:
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: morlogic.Server.NandGate
+    placingRules:
+        offsetDimensions: (2, 1)
+        gridPlacingDimensions: (2, 2)
+        allowFineRotation: false
+        canBeFlipped: true
+        flippingPointHeight: 0.5
+
+NorGate:
+    column: "Logic"
+    prefab:
+        blocks:
+            - 
+                scale: (1.5, 1, 1)
+                position: (0.5, 0, 0)
+                color: 888888
+        inputs:
+            -
+                position: (0.15, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (0.85, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (0.5, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: morlogic.Server.NorGate
+    placingRules:
+        offsetDimensions: (2, 1)
+        gridPlacingDimensions: (2, 2)
+        allowFineRotation: false
+        canBeFlipped: true
+        flippingPointHeight: 0.5
+
+OrGate:
+    column: "Logic"
+    prefab:
+        blocks:
+            - 
+                scale: (1.5, 1, 1)
+                position: (0.5, 0, 0)
+                color: FFFFFF
+        inputs:
+            -
+                position: (0.15, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (0.85, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (0.5, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: morlogic.Server.OrGate
+    placingRules:
+        offsetDimensions: (2, 1)
+        gridPlacingDimensions: (2, 2)
+        allowFineRotation: false
+        canBeFlipped: true
+        flippingPointHeight: 0.5
+
+XnorGate:
+    column: "Logic"
+    prefab:
+        blocks:
+            - 
+                scale: (2, 1, 1)
+                position: (0.5, 0, 0)
+                color: 000000
+        inputs:
+            -
+                position: (0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            -
+                position: (1, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            -
+                position: (1, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: morlogic.Server.XnorGate
+    placingRules:
+        offsetDimensions: (2, 1)
+        gridPlacingDimensions: (2, 2)
+        allowFineRotation: false
+        canBeFlipped: true
+        flippingPointHeight: 0.5

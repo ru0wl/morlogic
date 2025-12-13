@@ -1,0 +1,4 @@
+ru0wl.morlogic.NandGate : "NAND Gate"
+ru0wl.morlogic.XnorGate : "XNOR Gate"
+ru0wl.morlogic.OrGate   : "OR Gate"
+ru0wl.morlogic.NorGate  : "NOR Gate"
